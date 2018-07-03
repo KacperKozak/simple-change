@@ -18,9 +18,17 @@
     "typescript": "^2.9.2"
   },
   "jest": {
-    "transform": { "^.+\\.ts$": "ts-jest" },
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
     "testRegex": "(\\.test)\\.(ts)$",
-    "collectCoverageFrom": [ "src/**/*.{ts,js}" ],
-    "moduleFileExtensions": [ "js", "ts" ]
-  }
+    "collectCoverageFrom": [
+      "src/**/*.{ts,js}"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ]
+  },
+  "dependencies": {}
 }
