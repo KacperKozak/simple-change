@@ -1,7 +1,7 @@
 {
   "name": "simple-change",
   "version": "1.0.0",
-  "main": "dist/change.js",
+  "main": "dist/simple-change.js",
   "scripts": {
     "build": "rm -rf dist; tsc --project .",
     "watch": "tsc --project . --watch",
