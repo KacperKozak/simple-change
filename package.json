@@ -1,0 +1,26 @@
+{
+  "name": "simple-change",
+  "version": "1.0.0",
+  "main": "dist/change.js",
+  "scripts": {
+    "build": "rm -rf dist; tsc --project .",
+    "watch": "tsc --project . --watch",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch --coverage"
+  },
+  "author": "Kacper Kozak <kacperkk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "jest": "^23.2.0",
+    "parcel-bundler": "^1.9.4",
+    "ts-jest": "^23.0.0",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "transform": { "^.+\\.ts$": "ts-jest" },
+    "testRegex": "(\\.test)\\.(ts)$",
+    "collectCoverageFrom": [ "src/**/*.{ts,js}" ],
+    "moduleFileExtensions": [ "js", "ts" ]
+  }
+}
