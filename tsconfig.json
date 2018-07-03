@@ -10,8 +10,9 @@
         "preserveConstEnums": true,
         "sourceMap": true,
         "pretty": true,
+        "noUnusedLocals": true,
         "allowSyntheticDefaultImports": true,
-        "target":"es5"
+        "target":"es6",
     },
     "files": ["./src/simple-change.ts"]
 }
