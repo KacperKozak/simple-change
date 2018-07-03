@@ -1,12 +1,13 @@
 {
   "name": "simple-change",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "dist/simple-change.js",
   "scripts": {
     "build": "rm -rf dist; tsc --project .",
     "watch": "tsc --project . --watch",
     "test": "jest --coverage",
-    "test:watch": "jest --watch --coverage"
+    "test:watch": "jest --watch --coverage",
+    "prepare": "yarn test && yarn build"
   },
   "author": "Kacper Kozak <kacperkk@gmail.com>",
   "license": "MIT",
